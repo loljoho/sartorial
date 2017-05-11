@@ -8,6 +8,8 @@ Bespoke AngularJS web application boilerplate/seed project
 
 ## Overview
 
+__Sartorial__ is a bespoke boilerplate/seed project for building AngularJS web applications.
+
 This project was generated with the [Yeoman][yo] [Gulp-Angular][yo-gulp-ng] generator.
 
 
@@ -128,21 +130,20 @@ app/
 
 ## Getting Started
 
-Install the [Zenhub][zenhub] extension for Chrome, which extends the base functionality provided by GitHub's issue tracking.  Also familiarise yourself with the [Gitflow][gitflow] workflow.
-
-
 ### Prerequisites
 
 - [Git][git]
-- [Node.js][node] >= v0.12.0 and [npm][npm]
+- [Node.js][node] and [npm][npm]
+- [Gulp][gulp]
+- [Bower][bower]
 
 
 ### Installing
 
 1. Clone the repository with git and enter the directory:
 ```
-git clone https://github.com/GPQuery/gpquery-rdash.git
-cd gpquery-rdash/
+git clone https://github.com/loljoho/sartorial.git
+cd sartorial/
 ```
 
 2. Install dependencies with (this will automatically call `bower install`):
@@ -196,5 +197,4 @@ Lorem ipsum dolor sit amet.
 [bower]:https://bower.io
 [yo-gulp-ng]:https://github.com/Swiip/generator-gulp-angular
 [yo]:https://yeoman.io
-[rdash-ng]:https://github.com/rdash/rdash-angular
 [gulp]:https://gulpjs.com
