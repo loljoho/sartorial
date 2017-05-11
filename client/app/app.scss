@@ -1,0 +1,161 @@
+@charset 'UTF-8';
+
+
+
+
+
+
+
+
+/* Abstracts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/**
+ * These are configuration & helper partials, which
+ * include global variables, mixins, and functions.
+ *
+ * None of the Sass code in these files should output
+ * any CSS when compiled.
+ *
+ * @see https://sass-guidelin.es/#abstracts-folder
+ */
+
+@import 'core/style/variables';
+
+@import 'core/style/utilities';
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+
+
+
+
+/* Vendor Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/**
+ * Dependencies in `bower.json` are automatically
+ * injected by `wiredep`.
+ *
+ * Uncomment the `@import` comment below if you wish
+ * to manually import vendor styles.
+ */
+
+//@import 'core/style/vendor';
+
+/**
+ * Bootstrap-Sass partials are manually imported in
+ * the following file so we can compile it with our
+ * custom variables from the previous section.
+ */
+
+@import 'core/style/bootstrap';
+
+/**
+ * Do not remove the comments below!
+ *
+ * @achtung!
+ */
+
+// bower:scss
+// endbower
+
+/**
+ * Do not remove the comments above!
+ *
+ * @description
+ * They are markers used by `wiredep` to inject styles
+ * from dependencies as defined in `bower.json`.
+ */
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+
+
+
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/**
+ * This includes the project's "boilerplate" code:
+ * typographic rules; styles for standard HTML tags;
+ * resets, animations, and helper classes.
+ *
+ * @see https://sass-guidelin.es/#base-folder
+ */
+
+@import 'core/style/base';
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+
+
+
+
+/* Core Element Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/**
+ * Styles for Core Elements (major layout-related or
+ * "common" elements) can be found here.
+ *
+ * @see https://sass-guidelin.es/#layout-folder
+ */
+
+@import 'core/style/layout';
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+
+
+
+
+/* Modular Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/**
+ * Component-specific and page-specific styles can be
+ * found in their respective directories, and will be
+ * automatically injected by `gulp-inject`, removing
+ * any need to manually `@import` them.
+ *
+ * If you choose to import additional modular styles
+ * in the `modules/` directory, make sure to un-
+ * comment the following `@import` line below.
+ */
+
+//@import '/core/style/modules';
+
+
+/**
+ * Do not remove the comments below!
+ *
+ * @achtung!
+ */
+
+// injector
+// endinjector
+
+/**
+ * Do not remove the comments above!
+ *
+ * @description
+ * They are markers used by `gulp-inject` to inject
+ * styles and Sass partials from the rest of your
+ * project.
+ */
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––– */
