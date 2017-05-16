@@ -29,7 +29,7 @@
     }
 
     function getWebDevTec() {
-      vm.awesomeThings = tech;
+      vm.awesomeThings = tech.data;
 
       angular.forEach(vm.awesomeThings, function(awesomeThing) {
         awesomeThing.rank = Math.random();

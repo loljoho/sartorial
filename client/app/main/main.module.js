@@ -23,7 +23,9 @@
           bodyClass: 'home',
           resolve: {
             tech: function(webDevTec) {
-              return webDevTec.getTec();
+              return webDevTec.getTec().$promise.then(function(response) {
+                return response;
+              });
             }
           }
         }
