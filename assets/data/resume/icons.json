@@ -1,0 +1,62 @@
+{
+    "code": 200,
+    "copyright": "© 2017 Jonathan Ho",
+    "url": "assets/data/resume/work.json",
+    "description": "Sartorial Sample Data",
+    "data": {
+        "limit": 20,
+        "offset": 0,
+        "total": 6,
+        "results": [
+            {
+                "id": 1,
+                "icon": "software",
+                "title": "Computer Software",
+                "keywords": [
+                    "Software", "Application", "Program"
+                ]
+            },
+            {
+                "id": 2,
+                "icon": "hardware",
+                "title": "Computer Hardware",
+                "keywords": [
+                    "Hardware", "Computers"
+                ]
+            },
+            {
+                "id": 3,
+                "icon": "client",
+                "title": "Client Relations",
+                "keywords": [
+                    "Client", "Relations", "Customer", "Service"
+                ]
+            },
+            {
+                "id": 4,
+                "icon": "windows",
+                "title": "Microsoft Windows",
+                "keywords": [
+                    "Windows", "Win7", "Win8", "Win10", "Microsoft"
+                ]
+            },
+            {
+                "id": 5,
+                "icon": "network",
+                "title": "Computer Networking",
+                "keywords": [
+                    "Networking", "Network"
+                ]
+            },
+            {
+                "id": 6,
+                "icon": "support",
+                "title": "Technical Support",
+                "keywords": [
+                    "Support", "Technical"
+                ]
+            }
+        ]
+    }
+
+}

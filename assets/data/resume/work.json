@@ -1,0 +1,135 @@
+{
+    "code": 200,
+    "status": "success",
+    "copyright": "© 2017 Jonathan Ho",
+    "url": "assets/data/resume/work.json",
+    "description": "Sartorial Sample Data",
+    "data": {
+        "limit": 20,
+        "offset": 0,
+        "total": 4,
+        "results": [
+            {
+                "id": 1,
+                "position": "Systems Engineer",
+                "employer": "Logfu, Inc.",
+                "location": {
+                    "city": "Ridgeborough",
+                    "state": "NJ"
+                },
+                "startDate": "2004",
+                "endDate": "2009",
+                "summary": "Wholesale business-to-business importer of computer and electronic components",
+                "highlights": [
+                    "Assumed role of primary Technology Liason, facilitating technical communications with various internal teams",
+                    "Increased speed of order process by 30% through developing ETL atuomation while working alongside Senior Programmer Analyst",
+                    "Eliminated over 50% of warehouse-related errors by spearheading collaborative efforts to streamline logistics, and developing scripts for ad-hoc data analysis, inventory management, and order issue tracking"
+                ],
+                "tags": [
+                    "PHP",
+                    "MySQL",
+                    "Oracle",
+                    "Shell Scripting",
+                    "Java"
+                ]
+            },
+            {
+                "id": 2,
+                "positon": "Technician",
+                "employer": "Safe Haven Computers",
+                "location": {
+                    "city": "Zipitan",
+                    "state": "NJ",
+                },
+                "startDate": "2010 April",
+                "endDate": "2011 January",
+                "summary": "Full-service IT company providing remote and on-site services to corporate and private clientele throughout Central Jersey",
+                "highlights": [
+                ],
+                "tags": [
+                    "Client Relations",
+                    "Microsoft Windows",
+                    "Computer Software",
+                    "Computer Hardware",
+                    "Computer Networking"
+                ]
+            },
+            {
+                "id": 3,
+                "positon": "Web Developer",
+                "employer": "Befitted",
+                "location": {
+                    "city": "New York",
+                    "state": "NY",
+                },
+                "startDate": "2016 January",
+                "endDate": "2016 April",
+                "summary": "Online fashion social commerce platform with data-driven approach to fit and style",
+                "highlights": [
+                    "Wireframed and engineered intuitive, platform-agnostic, responsive user interface components to replace plain form elements",
+                    "Identified and implemented key UI/UX design principles for increasing user retention and reducing bounce rates",
+                    "Assisted back-end development team in resolving OmniAuth-related issues and updating Facebook and Instagram user authentication to current specifications",
+                    "Collaborated with marketing team in creating landing pages with multivariate and A/B testing for purposes of lead generation and user acquisition",
+                    "Proposed adoption of development best practices, including Ruby and Javascript style guides and modular Sass architecture"
+                    "Adapted user interface components from Ionic mobile application for desktop site"
+                ],
+                "tags": [
+                    "Ruby on Rails",
+                    "CoffeeScript",
+                    "jQuery",
+                    "LESS",
+                    "Sass",
+                    "Ionic Framework",
+                    "MySQL",
+                    "Google Analytics"
+                ]
+            },
+            {
+                "id": 4,
+                "positon": "Web Developer",
+                "employer": "Delmondo",
+                "location": {
+                    "city": "New York",
+                    "state": "NY",
+                },
+                "startDate": "2016 April",
+                "endDate": "2016 November",
+                "summary": "Social media analytics dashboard for Snapchat influencer marketing",
+                "highlights": [
+                    "Collaborated with Agile engineering team in developing features and fixing bugs on single-page web application",
+                    "Resolved major date search filter issue by writing Angular service to serialise HTTP request parameters, refactoring server-side code to address timezone offsets, and altering MySQL table schema for consistency amongst date columns",
+                    "Designed feature to display fully-responsive video and image embeds from user’s social media account posts by automatically querying Facebook, YouTube, and/or Twitter APIs with parameters retrieved from database",
+                    "Proposed adopting alternative data visualisation libraries through research and analysis of D3.js and Chart.js based implementations, evaluating feasibility with regards to compatibility and application requirements"
+                ],
+                "tags": [
+                    "AngularJS",
+                    "Node.js",
+                    "Express",
+                    "Sequelize",
+                    "MySQL",
+                    "Grunt"
+                ]
+            },
+            {
+                "id": 5,
+                "positon": "",
+                "employer": "",
+                "location": {
+                    "city": "",
+                    "state": "",
+                },
+                "startDate": "",
+                "endDate": "",
+                "summary": "",
+                "highlights": [
+                    "",
+                    "",
+                    "",
+                ],
+                "tags": [
+                    "",
+                ]
+            }
+        ]
+    }
+}
