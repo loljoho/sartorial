@@ -47,3 +47,15 @@ trim_trailing_whitespace = true
 trim_trailing_whitespace = false
 
 # -------------------------------
+
+
+
+
+# -------------------------------
+#   JSON Files
+# -------------------------------
+
+[*.json]
+indent_size = 4
+
+# -------------------------------
