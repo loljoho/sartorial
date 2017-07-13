@@ -29,6 +29,7 @@ npm-debug.log
 # -------------------------------
 
 *.css.map
+*.lock
 *.out
 *.pid
 *.seed
