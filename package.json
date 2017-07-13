@@ -1,12 +1,23 @@
 {
   "name": "sartorial",
   "version": "0.0.0",
-  "dependencies": {},
+  "description": "Bespoke AngularJS web application boilerplate",
+  "author": "Jonathan Ho <joho@joho.io> (http://joho.io)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loljoho/sartorial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/loljoho/sartorial/issues"
+  },
+  "homepage": "https://github.com/loljoho/sartorial#readme",
+  "main": "gulpfile.js",
   "scripts": {
     "init": "npm install",
     "install": "bower install",
     "test": "gulp test"
   },
+  "dependencies": {},
   "devDependencies": {
     "browser-sync": "~2.9.11",
     "browser-sync-spa": "~1.0.3",
